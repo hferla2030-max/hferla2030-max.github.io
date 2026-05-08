@@ -5,3 +5,9 @@ body{
 .title {
 	color: #7d8df5;
 }
+
+.button {
+  border: 3px solid #621896; border-radius: 20px; padding: 3px; width: fit-content;
+  background-color: #211c24;
+  color: #e8cffa;
+}
