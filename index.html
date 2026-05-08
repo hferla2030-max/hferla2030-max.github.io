@@ -9,16 +9,16 @@
   
       <h1 class="title">Civic Action Project</h1>
       <text>Missed School Alternative</text>
-      <p>Our class set out to create an alternate to making up missed days at the end of the year.</p>
+      <p id="CivicAct">Our class set out to create an alternate to making up missed days at the end of the year.</p>
  
   <article>
     <h2 class="title">Our Process</h2>
-    <p>We decided that the only way to move through with out plan would be to talk to DESE, so we did</p>
+    <p id="CivicAct">We decided that the only way to move through with out plan would be to talk to DESE, so we did</p>
   </article>
   
   <article>
     <h3 class="title">Guest Speakers</h3>
-    <p> Some Of the guest speakers we had talk with us include
+    <p id="CivicAct">Some Of the guest speakers we had talk with us include
 Dr. Joseph P. Maruszczak,
 Mrs. Nelson,
 School Committee Kevin Sareault,
@@ -32,9 +32,12 @@ Guy Boucher-Director of Community Services,
 Diane Costagliola-Library Director, and 
 Cait Fogarty-Communications Coordinator.</p>
   </article>
-  
-  
   </main>
-   <button>Civic Action Button</button>
+   <script>
+   function DuffSwitch() {
+     document.getElementById("CivicAct").innerHTML = "";
+   }
+ </script>
+   <button type="button" onclick="DuffSwitch()">Civic Action Button</button>
    </body>
 </html>
