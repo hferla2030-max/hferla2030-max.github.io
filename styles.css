@@ -15,8 +15,8 @@ body{
 .parent-container { position: relative; }
 .image1 {
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 250px;
+  right: 20px;
 }
 
 <img src="images/69fcaf16230ef.image.jpg" alt="Description" class="image1">
